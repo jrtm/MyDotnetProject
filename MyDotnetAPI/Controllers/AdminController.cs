@@ -6,7 +6,7 @@ namespace MyDotnetAPI.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-//[Authorize]
+[Authorize]
 public class AdminController : ControllerBase
 {
     [HttpGet]
